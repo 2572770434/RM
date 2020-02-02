@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="20000" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="unspecified" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\Administrator\Desktop\4_号+改大符\4_号 改大符\Objects\Infantry.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="5000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="camera_pitch" Address="0x20000038" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-11" YMaxSampled="-2" YAvgSampled="-6" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="220" IsAutoConfig="0" YResolution="10" MaxValue="20" File="BSP\usart2.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="camera_yaw" Address="0x2000003C" Type="float" TypeID="1" Size="4" GraphColorRed="128" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-4" YMaxSampled="8" YAvgSampled="0" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="300" IsAutoConfig="0" YResolution="5" MaxValue="10" File="BSP\usart2.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="ecd_angle" Address="0x20001020" Type="double" TypeID="2" Size="8" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-16" YMaxSampled="-3" YAvgSampled="-8" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="250" IsAutoConfig="0" YResolution="10" MaxValue="20" File="TASK\CanBusTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="ecd_angle" Address="0x20000FD0" Type="double" TypeID="2" Size="8" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-4" YMaxSampled="8" YAvgSampled="0" Offset="20" ShowInGraph="1" ACCoupling="0" YOffset="300" IsAutoConfig="0" YResolution="5" MaxValue="10" File="TASK\CanBusTask.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

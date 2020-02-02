@@ -1,0 +1,274 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: SDFDG AutoBVT, Microsoft, LIC=V85DY-IWSKF-GP2ZR-K9JXA-0SQ4T-PFY3S
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\312\步兵程序\新陀螺仪步兵(3)\Infantry.uvprojx
+Project File Date:  07/22/2019
+
+<h2>Output:</h2>
+Build target 'Infantry'
+compiling stm32f4xx_it.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+USER\stm32f4xx_it.c: 1 warning, 0 errors
+compiling system_stm32f4xx.c...
+compiling bsp.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\bsp.c: 1 warning, 0 errors
+compiling can1.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\can1.c: 1 warning, 0 errors
+compiling can2.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\can2.c: 1 warning, 0 errors
+compiling usart3.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\usart3.c: 1 warning, 0 errors
+compiling main.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+USER\main.c: 1 warning, 0 errors
+compiling timer.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\timer.c: 1 warning, 0 errors
+compiling gun.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\gun.c: 1 warning, 0 errors
+compiling usart1.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\usart1.c: 1 warning, 0 errors
+compiling usart2.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\usart2.c(314): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                camera_pitch = -(camera_pitch_temp/100)*0.7-0.16;//这个3是弹道强制补偿
+BSP\usart2.c(349): warning:  #1-D: last line of file ends without a newline
+  //01 23  45     6      7
+BSP\usart2.c: 3 warnings, 0 errors
+compiling usart6.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\usart6.c: 1 warning, 0 errors
+compiling ControlTask.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\ControlTask.c: 1 warning, 0 errors
+compiling usart7.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+BSP\usart7.c(18): warning:  #177-D: variable "dma" was declared but never referenced
+        DMA_InitTypeDef dma;
+BSP\usart7.c(73): warning:  #177-D: variable "j" was declared but never referenced
+                static int  j=0;
+BSP\usart7.c(61): warning:  #177-D: variable "usart7_this_time_rx_len" was declared but never referenced
+        static uint32_t usart7_this_time_rx_len = 0;
+BSP\usart7.c(154): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  tempp = CM1SpeedPID.ref*0.05;
+BSP\usart7.c(143): warning:  #177-D: variable "temp" was declared but never referenced
+  uint16_t temp;
+BSP\usart7.c(144): warning:  #550-D: variable "tempp" was set but never used
+  signed    char tempp;//int_8
+BSP\usart7.c: 7 warnings, 0 errors
+compiling SpeedTask.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\SpeedTask.c(2): warning:  #47-D: incompatible redefinition of macro "PI" (declared at line 301 of ".\DSPLIB\Include\arm_math.h")
+  #define PI 3.1415926
+TASK\SpeedTask.c(292): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                          GMYPositionPID.fdb = camera_yaw-0.5;//160 16 Eular[2]
+TASK\SpeedTask.c(412): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                          GMYPositionPID.fdb = camera_yaw-0.5-0.3*sin(GMYawEncoder.ecd_angle*PI/180);//160 16 Eular[2]
+TASK\SpeedTask.c(613): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(cnt2 == 0 )cnt1+=0.005;
+TASK\SpeedTask.c(614): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(cnt2 == 1)cnt1-=0.005;
+TASK\SpeedTask.c(615): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                if(cnt2 == 2)cnt1+=0.005;
+TASK\SpeedTask.c(619): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                CMRotatePID.ref = 45+250*sin(PI*cnt1);//打哨兵时底盘和云台存在一定角度后扭腰
+TASK\SpeedTask.c(787): warning:  #1-D: last line of file ends without a newline
+  }
+TASK\SpeedTask.c: 9 warnings, 0 errors
+compiling WorkState.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\WorkState.c(145): warning:  #177-D: variable "cameraKey" was declared but never referenced
+        Key_State cameraKey = KEY_INIT;//zimiao?                ^
+TASK\WorkState.c(146): warning:  #177-D: variable "dafuKey" was declared but never referenced
+        Key_State dafuKey = KEY_INIT;//大符键
+TASK\WorkState.c(147): warning:  #177-D: variable "servoKey" was declared but never referenced
+        Key_State servoKey = KEY_INIT;//舵机键
+TASK\WorkState.c(148): warning:  #177-D: variable "frictionKey" was declared but never referenced
+        Key_State frictionKey = KEY_INIT;//摩擦轮速度切换键
+TASK\WorkState.c(149): warning:  #177-D: variable "mouseLeftPress" was declared but never referenced
+        uint8_t mouseLeftPress = 0;
+TASK\WorkState.c(150): warning:  #177-D: variable "continuous_shoot_Flag" was declared but never referenced
+        uint8_t continuous_shoot_Flag = 0;
+TASK\WorkState.c(151): warning:  #177-D: variable "quickShootFlag" was declared but never referenced
+        uint8_t quickShootFlag = 0;
+TASK\WorkState.c(152): warning:  #177-D: variable "servoPositionFlag" was declared but never referenced
+        uint8_t servoPositionFlag = 0;
+TASK\WorkState.c(153): warning:  #177-D: variable "sendCustomDataFlag" was declared but never referenced
+        uint8_t sendCustomDataFlag = 0;
+TASK\WorkState.c(154): warning:  #177-D: variable "camera_temp" was declared but never referenced
+        uint8_t camera_temp = 0;
+TASK\WorkState.c(155): warning:  #177-D: variable "dafu_temp" was declared but never referenced
+        uint8_t dafu_temp = 0;
+TASK\WorkState.c(156): warning:  #177-D: variable "cat_temp" was declared but never referenced
+        uint8_t cat_temp = 0;
+TASK\WorkState.c(157): warning:  #177-D: variable "xtl" was declared but never referenced
+        Key_State xtl = KEY_INIT;//XTL
+TASK\WorkState.c: 14 warnings, 0 errors
+compiling CanBusTask.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\CanBusTask.c: 1 warning, 0 errors
+compiling encoder.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\encoder.c: 1 warning, 0 errors
+compiling MouseKeyControl.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\MouseKeyControl.c(162): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                GimbalRef.pitch_angle_dynamic_ref += 0.1;
+TASK\MouseKeyControl.c(173): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                GimbalRef.pitch_angle_dynamic_ref -= 0.1;
+TASK\MouseKeyControl.c(190): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                GimbalRef.yaw_angle_dynamic_ref += 0.1;
+TASK\MouseKeyControl.c(195): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                ChassisSpeedRef.left_right_ref = (left_right_speed + 0.3*Speed_Offset.output) * LRSpeedRamp.Calc(&LRSpeedRamp);
+TASK\MouseKeyControl.c(202): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                GimbalRef.yaw_angle_dynamic_ref -= 0.1;
+TASK\MouseKeyControl.c(206): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                                                        ChassisSpeedRef.left_right_ref = -(left_right_speed + 0.3*Speed_Offset.output) * LRSpeedRamp.Calc(&LRSpeedRamp);
+TASK\MouseKeyControl.c(244): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                     GimbalRef.pitch_angle_dynamic_ref -= 0.1;
+TASK\MouseKeyControl.c(271): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                     GimbalRef.yaw_angle_dynamic_ref += 0.1;
+TASK\MouseKeyControl.c(297): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                                      GimbalRef.yaw_angle_dynamic_ref -= 0.1;
+TASK\MouseKeyControl.c(331): warning:  #177-D: variable "Rotate_Quater_L" was declared but never referenced
+                                        Key_State Rotate_Quater_L = KEY_INIT;
+TASK\MouseKeyControl.c(336): warning:  #177-D: variable "Rotate_Quater_R" was declared but never referenced
+                                        Key_State Rotate_Quater_R = KEY_INIT;
+TASK\MouseKeyControl.c: 12 warnings, 0 errors
+compiling RemoteTask.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\RemoteTask.c(78): warning:  #223-D: function "SetS1InputMode" declared implicitly
+                SetS1InputMode(&RC_CtrlData.rc);//检测左边开关状态，选择自瞄
+TASK\RemoteTask.c: 2 warnings, 0 errors
+compiling InputState.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\InputState.c: 1 warning, 0 errors
+compiling RemoteControl.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\RemoteControl.c(152): warning:  #111-D: statement is unreachable
+                        DafuKeyCtrl_R();
+TASK\RemoteControl.c: 2 warnings, 0 errors
+compiling SuperviseTask.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+TASK\SuperviseTask.c: 1 warning, 0 errors
+compiling dataprocess.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+COMMON\dataprocess.c(67): warning:  #177-D: variable "ChassisPower_buffer" was declared but never referenced
+        uint16_t ChassisPower_buffer;
+COMMON\dataprocess.c: 2 warnings, 0 errors
+compiling delay.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+COMMON\delay.c: 1 warning, 0 errors
+compiling crc.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+COMMON\crc.c: 1 warning, 0 errors
+compiling misc.c...
+compiling stm32f4xx_can.c...
+compiling stm32f4xx_crc.c...
+compiling stm32f4xx_cryp.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_dma2d.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_flash.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_ltdc.c...
+compiling stm32f4xx_pwr.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_rng.c...
+compiling stm32f4xx_rtc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling stm32f4xx_wwdg.c...
+assembling startup_stm32f427xx.s...
+compiling Kalman.c...
+compiling VectorOpt.c...
+compiling MatrixOpt.c...
+compiling KALMANTEST.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+KALMAN\KALMANTEST.c(98): warning:  #1-D: last line of file ends without a newline
+  }     
+KALMAN\KALMANTEST.c: 2 warnings, 0 errors
+compiling pid_fuzzy.c...
+.\BSP\new_official_imu.h(52): warning:  #1295-D: Deprecated declaration include_round_engle - give arg types
+  void include_round_engle();
+Fuzzy\pid_fuzzy.c(275): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        structpid->detkp=detkp*(max_deltakp/0.3);
+Fuzzy\pid_fuzzy.c(276): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        structpid->detki=detki*(max_deltaki/0.06);
+Fuzzy\pid_fuzzy.c(158): warning:  #177-D: variable "pwm_var" was declared but never referenced
+        float pwm_var;//pwm调整量
+Fuzzy\pid_fuzzy.c(159): warning:  #177-D: variable "iError" was declared but never referenced
+        float iError;//当前误差
+Fuzzy\pid_fuzzy.c(160): warning:  #177-D: variable "ref" was declared but never referenced
+        float ref,fdb;
+Fuzzy\pid_fuzzy.c(160): warning:  #177-D: variable "fdb" was declared but never referenced
+        float ref,fdb;
+Fuzzy\pid_fuzzy.c(309): warning:  #1-D: last line of file ends without a newline
+  //}
+Fuzzy\pid_fuzzy.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=40696 RO-data=1640 RW-data=12088 ZI-data=11976  
+FromELF: creating hex file...
+".\Objects\Infantry.axf" - 0 Error(s), 78 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\312\步兵程序\新陀螺仪步兵(3)\RTE
+  D:\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
