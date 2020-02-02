@@ -51,20 +51,7 @@ int main()
 	
 	  delay_ms(1);
 		
-//    CM1SpeedPID.fdb = CM1Encoder.filter_rate;	  
-//		CM1SpeedPID.kp = 30;
-//		CM1SpeedPID.ki = 5;
-//		CM1SpeedPID.kd = 5;
-//		CM1SpeedPID.Calc(&CM1SpeedPID);
 
-//Set_CM_Speed(CAN1, 50,0,0,0);
-//		printf("%f\t",chassisPowerError);
-	//printf("%d\r\n",ChassisSpeedRef.forward_back_ref);
-//		printf("%f\t",GMYPositionPID.ref);
-//		printf("%f\t",GMYPositionPID.fdb);
-//		printf("%f\r\n",CMRotatePID.fdb);
-//		now_system_micrsecond = Get_Time_Micros();	
-//		delay_ms(500);
 		cou++;
 
 	}
