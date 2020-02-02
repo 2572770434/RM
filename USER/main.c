@@ -66,15 +66,6 @@ int main()
 //		now_system_micrsecond = Get_Time_Micros();	
 //		delay_ms(500);
 		cou++;
-//		SenddatatoNUC();
-//		angle[0]='M';
-//	  angle[1]='R';
-////	  angle[2]= (uint8_t)(int16_t)Angles*10;
-////    angle[3]= (uint8_t)((int16_t)(10*Angles) >> 8);	
-//	  angle[4]= (uint8_t)((int16_t)(GMPitchEncoder.ecd_angle*10));
-//	  angle[5]= (uint8_t)((int16_t)(GMPitchEncoder.ecd_angle*10)>>8);
-//		sendbytesinfoproc(angle,6);
-//		delay_us(500);
-		//i++;
+
 	}
 }
