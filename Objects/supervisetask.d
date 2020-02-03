@@ -2,7 +2,7 @@
 .\objects\supervisetask.o: .\USER\main.h
 .\objects\supervisetask.o: .\USER\stm32f4xx.h
 .\objects\supervisetask.o: .\CORE\core_cm4.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\supervisetask.o: .\CORE\core_cmInstr.h
 .\objects\supervisetask.o: .\CORE\core_cmFunc.h
 .\objects\supervisetask.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\supervisetask.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\supervisetask.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\supervisetask.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\supervisetask.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\supervisetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\supervisetask.o: .\KALMAN\Kalman.h
 .\objects\supervisetask.o: .\KALMAN\KALMANTEST.h
 .\objects\supervisetask.o: .\BSP\bsp.h

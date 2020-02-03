@@ -2,7 +2,7 @@
 .\objects\inputstate.o: .\USER\main.h
 .\objects\inputstate.o: .\USER\stm32f4xx.h
 .\objects\inputstate.o: .\CORE\core_cm4.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\inputstate.o: .\CORE\core_cmInstr.h
 .\objects\inputstate.o: .\CORE\core_cmFunc.h
 .\objects\inputstate.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\inputstate.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\inputstate.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\inputstate.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\inputstate.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\inputstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\inputstate.o: .\KALMAN\Kalman.h
 .\objects\inputstate.o: .\KALMAN\KALMANTEST.h
 .\objects\inputstate.o: .\BSP\bsp.h

@@ -2,7 +2,7 @@
 .\objects\remotetask.o: .\USER\main.h
 .\objects\remotetask.o: .\USER\stm32f4xx.h
 .\objects\remotetask.o: .\CORE\core_cm4.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\remotetask.o: .\CORE\core_cmInstr.h
 .\objects\remotetask.o: .\CORE\core_cmFunc.h
 .\objects\remotetask.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\remotetask.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\remotetask.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\remotetask.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\remotetask.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\remotetask.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\remotetask.o: .\KALMAN\Kalman.h
 .\objects\remotetask.o: .\KALMAN\KALMANTEST.h
 .\objects\remotetask.o: .\BSP\bsp.h

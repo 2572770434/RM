@@ -2,7 +2,7 @@
 .\objects\speedtask.o: .\USER\main.h
 .\objects\speedtask.o: .\USER\stm32f4xx.h
 .\objects\speedtask.o: .\CORE\core_cm4.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\speedtask.o: .\CORE\core_cmInstr.h
 .\objects\speedtask.o: .\CORE\core_cmFunc.h
 .\objects\speedtask.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\speedtask.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\speedtask.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\speedtask.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\speedtask.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\speedtask.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\speedtask.o: .\KALMAN\Kalman.h
 .\objects\speedtask.o: .\KALMAN\KALMANTEST.h
 .\objects\speedtask.o: .\BSP\bsp.h

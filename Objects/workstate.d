@@ -2,7 +2,7 @@
 .\objects\workstate.o: .\USER\main.h
 .\objects\workstate.o: .\USER\stm32f4xx.h
 .\objects\workstate.o: .\CORE\core_cm4.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\workstate.o: .\CORE\core_cmInstr.h
 .\objects\workstate.o: .\CORE\core_cmFunc.h
 .\objects\workstate.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\workstate.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\workstate.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\workstate.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\workstate.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\workstate.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\workstate.o: .\KALMAN\Kalman.h
 .\objects\workstate.o: .\KALMAN\KALMANTEST.h
 .\objects\workstate.o: .\BSP\bsp.h

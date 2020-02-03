@@ -2,7 +2,7 @@
 .\objects\dataprocess.o: .\USER\main.h
 .\objects\dataprocess.o: .\USER\stm32f4xx.h
 .\objects\dataprocess.o: .\CORE\core_cm4.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\dataprocess.o: .\CORE\core_cmInstr.h
 .\objects\dataprocess.o: .\CORE\core_cmFunc.h
 .\objects\dataprocess.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\dataprocess.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\dataprocess.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\dataprocess.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\dataprocess.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dataprocess.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\dataprocess.o: .\KALMAN\Kalman.h
 .\objects\dataprocess.o: .\KALMAN\KALMANTEST.h
 .\objects\dataprocess.o: .\BSP\bsp.h

@@ -2,7 +2,7 @@
 .\objects\can2.o: .\USER\main.h
 .\objects\can2.o: .\USER\stm32f4xx.h
 .\objects\can2.o: .\CORE\core_cm4.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\can2.o: .\CORE\core_cmInstr.h
 .\objects\can2.o: .\CORE\core_cmFunc.h
 .\objects\can2.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\can2.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\can2.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\can2.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\can2.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\can2.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\can2.o: .\KALMAN\Kalman.h
 .\objects\can2.o: .\KALMAN\KALMANTEST.h
 .\objects\can2.o: .\BSP\bsp.h

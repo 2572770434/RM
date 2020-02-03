@@ -2,7 +2,7 @@
 .\objects\controltask.o: .\USER\main.h
 .\objects\controltask.o: .\USER\stm32f4xx.h
 .\objects\controltask.o: .\CORE\core_cm4.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\controltask.o: .\CORE\core_cmInstr.h
 .\objects\controltask.o: .\CORE\core_cmFunc.h
 .\objects\controltask.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\controltask.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\controltask.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\controltask.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\controltask.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\controltask.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\controltask.o: .\KALMAN\Kalman.h
 .\objects\controltask.o: .\KALMAN\KALMANTEST.h
 .\objects\controltask.o: .\BSP\bsp.h

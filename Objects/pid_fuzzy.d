@@ -1,11 +1,11 @@
 .\objects\pid_fuzzy.o: Fuzzy\pid_fuzzy.c
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\pid_fuzzy.o: Fuzzy\pid_fuzzy.h
 .\objects\pid_fuzzy.o: .\USER\stm32f4xx.h
 .\objects\pid_fuzzy.o: .\CORE\core_cm4.h
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pid_fuzzy.o: .\CORE\core_cmInstr.h
 .\objects\pid_fuzzy.o: .\CORE\core_cmFunc.h
 .\objects\pid_fuzzy.o: .\CORE\core_cm4_simd.h
@@ -41,8 +41,8 @@
 .\objects\pid_fuzzy.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\pid_fuzzy.o: .\STLibraries\inc\stm32f4xx_sai.h
 .\objects\pid_fuzzy.o: .\USER\main.h
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\pid_fuzzy.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\pid_fuzzy.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\pid_fuzzy.o: .\KALMAN\Kalman.h
 .\objects\pid_fuzzy.o: .\KALMAN\KALMANTEST.h
 .\objects\pid_fuzzy.o: .\BSP\bsp.h

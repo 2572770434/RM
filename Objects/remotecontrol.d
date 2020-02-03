@@ -2,7 +2,7 @@
 .\objects\remotecontrol.o: .\USER\main.h
 .\objects\remotecontrol.o: .\USER\stm32f4xx.h
 .\objects\remotecontrol.o: .\CORE\core_cm4.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\remotecontrol.o: .\CORE\core_cmInstr.h
 .\objects\remotecontrol.o: .\CORE\core_cmFunc.h
 .\objects\remotecontrol.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\remotecontrol.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\remotecontrol.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\remotecontrol.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\remotecontrol.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\remotecontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\remotecontrol.o: .\KALMAN\Kalman.h
 .\objects\remotecontrol.o: .\KALMAN\KALMANTEST.h
 .\objects\remotecontrol.o: .\BSP\bsp.h

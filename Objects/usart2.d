@@ -2,7 +2,7 @@
 .\objects\usart2.o: .\USER\main.h
 .\objects\usart2.o: .\USER\stm32f4xx.h
 .\objects\usart2.o: .\CORE\core_cm4.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart2.o: .\CORE\core_cmInstr.h
 .\objects\usart2.o: .\CORE\core_cmFunc.h
 .\objects\usart2.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\usart2.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\usart2.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\usart2.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\usart2.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usart2.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\usart2.o: .\KALMAN\Kalman.h
 .\objects\usart2.o: .\KALMAN\KALMANTEST.h
 .\objects\usart2.o: .\BSP\bsp.h

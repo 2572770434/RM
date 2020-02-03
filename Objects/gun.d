@@ -2,7 +2,7 @@
 .\objects\gun.o: .\USER\main.h
 .\objects\gun.o: .\USER\stm32f4xx.h
 .\objects\gun.o: .\CORE\core_cm4.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gun.o: .\CORE\core_cmInstr.h
 .\objects\gun.o: .\CORE\core_cmFunc.h
 .\objects\gun.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\gun.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\gun.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\gun.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\gun.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gun.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\gun.o: .\KALMAN\Kalman.h
 .\objects\gun.o: .\KALMAN\KALMANTEST.h
 .\objects\gun.o: .\BSP\bsp.h

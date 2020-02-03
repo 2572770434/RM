@@ -2,7 +2,7 @@
 .\objects\mousekeycontrol.o: .\USER\main.h
 .\objects\mousekeycontrol.o: .\USER\stm32f4xx.h
 .\objects\mousekeycontrol.o: .\CORE\core_cm4.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mousekeycontrol.o: .\CORE\core_cmInstr.h
 .\objects\mousekeycontrol.o: .\CORE\core_cmFunc.h
 .\objects\mousekeycontrol.o: .\CORE\core_cm4_simd.h
@@ -37,11 +37,11 @@
 .\objects\mousekeycontrol.o: .\STLibraries\inc\stm32f4xx_dma2d.h
 .\objects\mousekeycontrol.o: .\STLibraries\inc\stm32f4xx_fmc.h
 .\objects\mousekeycontrol.o: .\STLibraries\inc\stm32f4xx_sai.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\string.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\mousekeycontrol.o: D:\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mousekeycontrol.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\mousekeycontrol.o: .\KALMAN\Kalman.h
 .\objects\mousekeycontrol.o: .\KALMAN\KALMANTEST.h
 .\objects\mousekeycontrol.o: .\BSP\bsp.h
